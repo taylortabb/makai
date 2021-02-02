@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Style is Skeleton CSS. Build tracker by Taylor Tabb '18 '19 [http://tabb.me]. -->
+
+
+  <!-- Basic Page Needs | You can replace your description and name with your description and name. The description may show up in search results.
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+
+  <!-- Mobile Specific Metas | Ensures the site looks good on mobile
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  <!-- FONT | To pick a new font, head to https://fonts.google.com/
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS | These are the stylesheets that make this site look as it does
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="build-app/css/normalize.css">
+    <link rel="stylesheet" href="build-app/css/skeleton.css">
+
+
+  <!-- Favicon | This is the little icon that shows up above the URL bar and in bookmarks
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="build-app/image/png" href="build-app/images/favicon.png">
+    <link rel="apple-touch-icon" href="build-app/images/custom_icon.png">
+
+    <!-- Google Analytics to taylor -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-74339615-3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-74339615-3');
+    </script>
+
+     <script>
+
+      var countDownDate = new Date("Apr 5, 2019 15:00:00").getTime();
+
+      var x = setInterval(function() {
+
+        var now = new Date().getTime();
+        var week_day = new Date().getDay();
+
+      if (week_day == 1) {
+        words = "Aloha! Today's Chores: YA BOI TAYLOR";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (week_day == 2) {
+        words = "Aloha! Today's Chores: GRIFFYBOIII";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (week_day == 3) {
+        words = "Aloha! Today's Chores: STEEN BONE";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (week_day == 4) {
+        words = "Aloha! Today's Chores: OSSOBOLLO";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (week_day == 5) {
+        words = "Aloha! Today's Chores: DEVYN";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (week_day == 6) {
+        words = "Aloha! Today's Chores: RODNEYYY";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (week_day == 0) {
+        words = "Aloha! Today's Chores: FAMILY CHORE DAYYYY";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+    }, 1000);
+  </script>
+
+  <!--   <script>
+
+function myFunction() {
+      var d = new Date();
+      var day == d.getDay();
+      var words = 'ERROR'
+
+      if (day == '1') {
+        words = "Aloha! Today's Chores: YA BOI TAYLOR";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (day == 2) {
+        words = "Aloha! Today's Chores: GRIFFYBOIII";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (day == 3) {
+        words = "Aloha! Today's Chores: STEEN BONE";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (day == 4) {
+        words = "Aloha! Today's Chores: OSSOBOLLO";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (day == 5) {
+        words = "Aloha! Today's Chores: DEVYN";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (day == 6) {
+        words = "Aloha! Today's Chores: RODNEYYY";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+      if (day == 0) {
+        words = "Aloha! Today's Chores: FAMILY CHORE DAYYYY";
+        document.getElementById("top_message").innerHTML = words;
+      }
+
+
+}
+    </script>
+ -->
+  </head>
+  <style>
+
+    .full {
+      width: 100%;
+    }
+
+    .done {
+      /*  text-decoration: line-through;*/
+    }
+
+    .collapsible {
+      cursor: pointer;
+      width: 100%;
+      border: none;
+      text-align: left;
+      outline: none;
+    }
+
+    .active, .collapsible:hover {
+      /*  background-color: #555;*/
+    }
+
+    .content {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease-out;
+    }
+  </style>
+ <body onload="myFunction()"> 
+
+
+  <!-- Primary Page Layout | This is for you to edit! Replace Moana's info with yours :)
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <div class="container" style="margin-top: 10%">
+      <div class="row">
+        <div class="twelve columns">
+          <div class="four columns offset-by-four">
+            <img src="build-app/images/stitch.gif" width="100%">
+          </div>
+        </div>
+      </div>
+      <br>  
+      <!--   <h6> ✂✓</h6> -->
+      <div class="row">
+
+<!--         <h6 align="center">Aloha! And welcome to Makai Mansion</h6>
+ -->
+        <h6 align="center"> <span id="top_message"></span></h6>
+        <div class="row">
+
+          <a href="http://sigep.fun/build-app/blueprints/layout/assembly_order.pdf" class="button full">Shared Calendar</a>
+
+          <div class="collapsible"> <button class="button full">Blueprints [use only for sheathing]</button></div>
+          <div class="content">   
+            <h6>hi</h6>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+<!-- <div class="row">
+ <div class="collapsible"> <button class="button full">Layout</button></div>
+
+ <div class="content">  
+ </div> -->
+ <h6 align="center"><a href="https://open.spotify.com/playlist/0H7HCu5GimyBhBjAi2MfiM?si=bjMPIUwfQNurdUUBm8ZfFg">🎶 booth tunes 🎶</a></h6>
+
+
+</div>
+</div>
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+</script>
+<script type="text/javascript">
+  var finished=document.getElementsByClassName('done').length;
+  var total=42;
+  var percent=100*(finished/total);
+  var build_status = Math.round(percent);
+  document.getElementById("build_status").innerHTML = build_status;
+</script>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+</html>
